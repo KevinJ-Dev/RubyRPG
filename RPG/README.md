@@ -42,8 +42,8 @@ Crée un modèle Quest pour représenter les quêtes:
 * Ouvrire le fichier de migration correspondant dans le répertoire **db/migrate** et définis les colonnes nécessaires pour représenter une quête. Par exemple, avoir des colonnes telles que title, description, reward, etc...
 * Exécuter la migration en utilisant la commande ' **rails db:migrate** ' pour créer la table quests dans la base de données.
 
-# Génère les vues pour les actions du Maitre du jeu
+# Exemple génère les vues pour les actions du Maitre du jeu
 
 * Crée un contrôleur Quests en utilisant la commande ' **rails generate controller Quests** '.
-* Dans le contrôleur Quests, définis les actions nécessaires, telles que index, new, create, edit, update, destroy, etc.
+* Dans le contrôleur Quests, définis les actions nécessaires, telles que index, new, create, edit, update, destroy, etc...
 * Pour chaque action, crée une vue correspondante dans le répertoire app/views/quests.

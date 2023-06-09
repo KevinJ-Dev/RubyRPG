@@ -1,3 +1,5 @@
+require_relative '../models/quest'
+
 class QuestsController < ApplicationController
   def index
     @quests = Quest.all

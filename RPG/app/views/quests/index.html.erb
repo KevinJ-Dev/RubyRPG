@@ -1,0 +1,8 @@
+<h1>Liste des quêtes</h1>
+<ul>
+  <% @quests.each do |quest| %>
+    <li><%= quest.title %></li>
+    <p><%= quest.description %></p>
+    <p><%= quest.reward %>></p>
+  <% end %>
+</ul>

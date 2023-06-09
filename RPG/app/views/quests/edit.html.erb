@@ -1,0 +1,10 @@
+<h1>Modifier la quête : <%= @quest.title %></h1>
+<%= form_with(model: @quest, url: quest_path(@quest), method: :patch) do |form| %>
+  <div>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+  <div>
+    <%= form.submit "Enregistrer" %>
+  </div>
+<% end %>
